@@ -4,7 +4,7 @@ A boilerplate repository managed by Turborepo, written in Typescript. Including 
 
 ## Usage
 
-``
+```
 # TBA
-``
+```
 
