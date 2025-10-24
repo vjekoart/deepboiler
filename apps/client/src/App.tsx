@@ -5,6 +5,7 @@ import HomeView from '#views/Home.tsx'
 import MUIView from '#views/MUI.tsx'
 import RestAPIView from '#views/RestAPI.tsx'
 import RouterView from '#views/Router.tsx'
+import StateView from '#views/State.tsx'
 
 import styles from './App.module.css'
 
@@ -19,6 +20,7 @@ function App() {
           <Link href="/graphql">GraphQL</Link>
           <Link href="/router">Router</Link>
           <Link href="/mui">MUI</Link>
+          <Link href="/state">State</Link>
         </nav>
       </header>
       <main className={ styles.container }>
@@ -27,6 +29,7 @@ function App() {
           <Route path="/mui" component={ MUIView } />
           <Route path="/rest-api" component={ RestAPIView } />
           <Route path="/router" component={ RouterView } nest />
+          <Route path="/state" component={ StateView } />
           <Route path="/" component= { HomeView } />
           <Route>404</Route>
         </Switch>
