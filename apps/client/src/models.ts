@@ -4,12 +4,13 @@ export interface ModelDummy {
   title: string
 }
 
+export interface ModelItem {
+  id: number
+  name: string
+}
+
 export interface ModelUser {
   id: number
   authorized: boolean
 }
 
-export interface ModelItem {
-  id: number
-  name: string
-}

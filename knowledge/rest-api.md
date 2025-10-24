@@ -1,3 +1,6 @@
+# REST API
+
+```tsx
 import { useEffect } from 'react'
 import type { ModelDummy } from '#models.ts'
 import { apiRequest } from '#utilities.ts'
@@ -31,3 +34,4 @@ function RestAPIView() {
 }
 
 export default RestAPIView
+```

@@ -1,6 +1,6 @@
 import BoilerButton from '#components/BoilerButton.tsx'
 
-function MUIView() {
+function AnotherPageView() {
   return (
     <>
       <BoilerButton onClick={ () => alert('Clicked!') }>Boiler button</BoilerButton>
@@ -8,4 +8,4 @@ function MUIView() {
   )
 }
 
-export default MUIView
+export default AnotherPageView

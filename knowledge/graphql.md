@@ -1,3 +1,6 @@
+# GraphQL
+
+```tsx
 import { useEffect } from 'react'
 import type { ModelDummy } from '#models.ts'
 import { graphRequest } from '#utilities.ts'
@@ -41,3 +44,4 @@ function GraphQLView() {
 }
 
 export default GraphQLView
+```
