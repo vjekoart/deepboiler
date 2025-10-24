@@ -1,0 +1,22 @@
+
+> backend@0.0.0 start /Users/vartic/Projects/deepboiler/apps/backend
+> node --env-file .env dist/src/index.js
+
+node:internal/modules/esm/resolve:274
+    throw new ERR_MODULE_NOT_FOUND(
+          ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/Users/vartic/Projects/deepboiler/apps/backend/src/middleware.js' imported from /Users/vartic/Projects/deepboiler/apps/backend/dist/src/index.js
+[90m    at finalizeResolution (node:internal/modules/esm/resolve:274:11)[39m
+[90m    at moduleResolve (node:internal/modules/esm/resolve:859:10)[39m
+[90m    at defaultResolve (node:internal/modules/esm/resolve:983:11)[39m
+[90m    at #cachedDefaultResolve (node:internal/modules/esm/loader:731:20)[39m
+[90m    at ModuleLoader.resolve (node:internal/modules/esm/loader:708:38)[39m
+[90m    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:310:38)[39m
+[90m    at ModuleJob._link (node:internal/modules/esm/module_job:182:49)[39m {
+  code: [32m'ERR_MODULE_NOT_FOUND'[39m,
+  url: [32m'file:///Users/vartic/Projects/deepboiler/apps/backend/src/middleware.js'[39m
+}
+
+Node.js v22.21.0
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m

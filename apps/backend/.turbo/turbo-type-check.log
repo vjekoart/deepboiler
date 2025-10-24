@@ -1,0 +1,5 @@
+
+
+> backend@0.0.0 type-check /Users/vartic/Projects/deepboiler/apps/backend
+> tsc --noEmit
+

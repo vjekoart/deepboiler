@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+
+  width: 100%;
+  height: 168px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.navigation a {
+  display: block;
+  color: var(--color-text);
+  text-decoration-color: var(--color-text);
+}
+
+.heading {
+  margin: 0;
+  text-shadow: 3px 3px var(--color-accent);
+}
+
+.container {
+  height: calc(100dvh - 248px);
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 16px;
+
+  color: var(--color-background);
+  background: var(--color-text);
+}
