@@ -7,7 +7,7 @@ Monorepo managed by Turborepo, written in Typescript with web client and backend
 * Frontend: React, [Wouter](https://github.com/molefrog/wouter), Vite, MUI, basic CSS reset
 * Backend: ExpressJS with REST API and GraphQL dummy endpoints
 
-The current version of the boilerplate doesn't include test mechanisms, nor it includes the mechanism to run the backend service except in the development mode.
+The current version of the boilerplate doesn't include test mechanisms, nor `start` action for the backend service.
 
 ## Components
 

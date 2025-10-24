@@ -2,6 +2,7 @@ import { Link, Route, Switch } from 'wouter'
 
 import GraphQLView from '#views/GraphQL.tsx'
 import HomeView from '#views/Home.tsx'
+import MUIView from '#views/MUI.tsx'
 import RestAPIView from '#views/RestAPI.tsx'
 import RouterView from '#views/Router.tsx'
 
@@ -17,11 +18,13 @@ function App() {
           <Link href="/rest-api">REST API</Link>
           <Link href="/graphql">GraphQL</Link>
           <Link href="/router">Router</Link>
+          <Link href="/mui">MUI</Link>
         </nav>
       </header>
       <main className={ styles.container }>
         <Switch>
           <Route path="/graphql" component={ GraphQLView } />
+          <Route path="/mui" component={ MUIView } />
           <Route path="/rest-api" component={ RestAPIView } />
           <Route path="/router" component={ RouterView } nest />
           <Route path="/" component= { HomeView } />
