@@ -1,3 +1,5 @@
+import type { ModelUser } from '#models.ts'
+
 export function apiRequest<Type>(endpoint: string, method: 'GET' | 'POST' | 'PUT' | 'DELETE' = 'GET', body: unknown = null): Promise<Type> {
   const resource = import.meta.env.VITE_API_BASE + endpoint
   const options: RequestInit = {
@@ -24,4 +26,8 @@ export interface GraphResponse<Type> {
 
 export function graphRequest<Type>(query: string): Promise<GraphResponse<Type>> {
   return apiRequest('graphql', 'POST', { query })
+}
+
+export function isAllowed(user: ModelUser, location: string): boolean {
+  return location.includes('protected') && user.authorized
 }

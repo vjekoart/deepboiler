@@ -1,7 +1,7 @@
 function HomeView() {
   return (
     <>
-      Home View
+      An opinionated and primitive boilerplate repository for building web apps.
     </>
   ) 
 }

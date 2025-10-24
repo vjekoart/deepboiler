@@ -3,3 +3,8 @@ export interface ModelDummy {
   uid: string
   title: string
 }
+
+export interface ModelUser {
+  id: number
+  authorized: boolean
+}

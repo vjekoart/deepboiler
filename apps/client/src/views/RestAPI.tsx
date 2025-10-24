@@ -25,7 +25,7 @@ function RestAPIView() {
 
   return (
     <>
-      REST API View. Check out the console.
+      An example of CRUD REST API netork calls. Check out both console and network inspector.
     </>
   )
 }

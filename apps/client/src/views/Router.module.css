@@ -1,0 +1,10 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.navigation a {
+  color: var(--color-text);
+}

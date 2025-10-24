@@ -1,10 +1,12 @@
 :root {
   --primitive-color-white: #f6f6fd;
   --primitive-color-black: #16161d;
+  --primitive-color-lightblue: #5353b2;
   --primitive-color-blue: #3f3f8d;
 
   --color-accent: var(--primitive-color-blue);
   --color-background: var(--primitive-color-black);
+  --color-background-light: var(--primitive-color-lightblue);
   --color-text: var(--primitive-color-white);
 }
 
@@ -40,4 +42,12 @@ html {
 
 body {
   min-height: 100%;
+}
+
+p {
+  margin: 0 0 24px 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
 }

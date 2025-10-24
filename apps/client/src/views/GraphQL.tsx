@@ -35,7 +35,7 @@ function GraphQLView() {
 
   return (
     <>
-      GraphQL View. Check out the console.
+      An example of CRUD GraphQL queries. Check out both console and network inspector.
     </>
   ) 
 }
